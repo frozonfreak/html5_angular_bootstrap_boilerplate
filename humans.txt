@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <Sastha> -- <role> -- <sasthakl>
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
