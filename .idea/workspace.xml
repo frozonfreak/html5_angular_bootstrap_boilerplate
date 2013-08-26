@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5581d38a-ac0c-4e87-84ca-238b9e656905" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/html5_angular_bootstrap_boilerplate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/ui-bootstrap-tpls-0.3.0.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="5581d38a-ac0c-4e87-84ca-238b9e656905" name="Default" comment="" />
     <ignored path="html5_angular_bootstrap_boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5581d38a-ac0c-4e87-84ca-238b9e656905" time="1376444608847" ignored="false" />
@@ -54,7 +45,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="66" selection-start="889" selection-end="889" vertical-scroll-proportion="0.872093">
+            <state line="22" column="54" selection-start="672" selection-end="672" vertical-scroll-proportion="0.5232558">
               <folding />
             </state>
           </provider>
@@ -181,6 +172,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LocalGIT/SolutionMatrix" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -316,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="66" selection-start="889" selection-end="889" vertical-scroll-proportion="0.872093">
+        <state line="22" column="54" selection-start="672" selection-end="672" vertical-scroll-proportion="0.5232558">
           <folding />
         </state>
       </provider>
