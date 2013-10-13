@@ -1,16 +1,18 @@
-var smApp = angular.module('smApp',['ui.date','ui.bootstrap','ui.keypress','ngRoute']);
+var smApp = angular.module('smApp',['ui.bootstrap','ui.router']);
 
-//Routing
-smApp.config(function ($routeProvider) {
-    $routeProvider
-        .when('/',
-            {
-                controller: 'appController',
-                templateUrl: 'partials/home.html'
-            })
-        .otherwise({ redirectTo: '/' });
+smApp.config(function($stateProvider, $urlRouterProvider) {
+
+  // Now set up the states
+  $stateProvider
+    .state('home', {
+      url: "/",
+      templateUrl: "partials/home.html",
+      controller: 'appController',
+    })
+    // For any unmatched url, redirect to /state1
+     $urlRouterProvider.otherwise("/404");
+
 });
-
 //controller
 smApp.controller('appController', function($scope){
 
@@ -27,5 +29,8 @@ smApp.controller('appController', function($scope){
 		
 		
 	};
+	$scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
 	
 });
