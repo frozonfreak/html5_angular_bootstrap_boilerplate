@@ -9,6 +9,11 @@ smApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: "partials/home.html",
       controller: 'appController',
     })
+    .state('404', {
+      url: "/404",
+      templateUrl: "404.html",
+      controller: 'app404Controller',
+    })
     // For any unmatched url, redirect to /state1
      $urlRouterProvider.otherwise("/404");
 
@@ -29,8 +34,17 @@ smApp.controller('appController', function($scope){
 		
 		
 	};
-	$scope.isActive = function (viewLocation) { 
-        return viewLocation === $location.path();
-    };
 	
+});
+smApp.controller('app404Controller', function($scope){
+
+});
+angular.module('smApp').run(function($http, $rootScope, $location) {
+
+//Active menu
+ $rootScope.isActive = function (viewLocation) {
+        console.log($location.path());
+        return viewLocation === $location.path();
+ };
+
 });
