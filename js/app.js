@@ -1,6 +1,6 @@
-var ampsApp = angular.module('ampsApp',['ui.bootstrap','ui.router']);
+var smApp = angular.module('smApp',['ui.bootstrap','ui.router']);
 
-ampsApp.config(function($stateProvider, $urlRouterProvider) {
+smApp.config(function($stateProvider, $urlRouterProvider) {
 
   // Now set up the states
   $stateProvider
@@ -19,7 +19,7 @@ ampsApp.config(function($stateProvider, $urlRouterProvider) {
 
 });
 //controller
-ampsApp.controller('appController', function($scope){
+smApp.controller('appController', function($scope){
   
 	$scope.alerts = [];
 	$scope.searchText;
@@ -32,10 +32,10 @@ ampsApp.controller('appController', function($scope){
 	};
 	
 });
-ampsApp.controller('app404Controller', function($scope){
+smApp.controller('app404Controller', function($scope){
 
 });
-angular.module('ampsApp').run(function($http, $rootScope, $location) {
+angular.module('smApp').run(function($http, $rootScope, $location) {
 
 //Active menu
  $rootScope.isActive = function (viewLocation) {
