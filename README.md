@@ -2,10 +2,11 @@
 
 ##Versions
 
-* Bootstrap 3.0.3
-* AngularJS 1.2.4
-* UI-Bootstrap - 0.7.0
-* JQuery - 2.0.3
+* Bootstrap to 3.1.1
+* Jquery to 2.1.0
+* AngularJS to 1.2.14
+* ui-bootstrap to 0.10.0
+* ui-router to 0.2.8
 
 
 
