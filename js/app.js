@@ -21,16 +21,16 @@ smApp.config(function($stateProvider, $urlRouterProvider) {
 //controller
 smApp.controller('appController', function($scope){
   
-	$scope.alerts = [];
-	$scope.searchText;
-	
-  	//Initializer
-	init();
-	function init(){
-		
-		
-	};
-	
+  $scope.alerts = [];
+  $scope.searchText;
+  
+    //Initializer
+  init();
+  function init(){
+    
+    
+  };
+  
 });
 smApp.controller('app404Controller', function($scope){
 
